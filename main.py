@@ -49,7 +49,7 @@ def dicEJ():
     while 1:
         print("Palabra en esp:")
         pal=input()
-        if (pal=='stop'):
+        if (pal.upper=='STOP'):
             break
         for temas in dic:
             for palab in dic.get(temas):
@@ -62,7 +62,7 @@ def dicJE():
     while 1: 
         print("Palabra en jap:")
         pal=input()
-        if (pal=='stop'):
+        if (pal.upper=='STOP'):
             break
         for temas in dic:
             for palab in dic.get(temas):
