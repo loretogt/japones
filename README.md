@@ -8,6 +8,7 @@ No es una versión final, donde se encuentran los datos ("datos.jason") se está
 Es necesario tener instalado alguna version de python en el ordenador
 
 ## Como ejecutarlo 
+Es necesario descargar la carpeta completa y guardarla donde quieras de tu ordenador.  
 Desde la terminal tienes que irte a la carpeta donde este almacenado el codigo, y para poder ejecutarlo simplemente escribir
 ```bash
 python3 main.py 
