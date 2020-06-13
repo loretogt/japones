@@ -1,0 +1,282 @@
+{
+    "Presentarse": [{
+        "ES":"Yo soy Loreto",
+        "JA":"わたしはロレトです",
+        "KA":"私はロレトです"
+    },{
+        "ES":"Hola",
+        "JA":"こんにちは",
+        "KA":"今日は"
+    },{
+        "ES":"Encantada de conocerte",
+        "JA":"はじめまして",
+        "KA":"初めまして"
+    },{
+        "ES":"Es un placer",
+        "JA":"どうぞよろしく",
+        "KA":"どうぞ宜しく"
+    },{
+        "ES":"Es un placer (formal)",
+        "JA":"よろしくおねがいします",
+        "KA":"宜しくお願いします"
+    }],
+    
+    "Saludar, agradecer y disculparse": [{
+        "ES":"Buenos dias",
+        "JA":"おはよう",
+        "KA":""
+    },{
+        "ES":"Gracias",
+        "JA":"ありがとう",
+        "KA":""
+    },{
+        "ES":"Lo siento",
+        "JA":"すみません",
+        "KA":""
+    },{
+        "ES":"De nada",
+        "JA":"いいえ",
+        "KA":""
+    },{
+        "ES":"Aqui tienes",
+        "JA":"どうぞ",
+        "KA":""
+    },{
+        "ES":"Buenos dias (formal)",
+        "JA":"おはようございます",
+        "KA":""
+    }],
+
+    "Yo y adios": [{
+        "ES":"Adios",
+        "JA":"さようなら",
+        "KA":""
+    },{
+        "ES":"Hasta luego",
+        "JA":"じゃあ、また",
+        "KA":""
+    },{
+        "ES":"Adios (formal)",
+        "JA":"しつれいします",
+        "KA":"失礼します"
+    },{
+        "ES":"Yo",
+        "JA":"わたし",
+        "KA":"私"
+    },{
+        "ES":"Yo (suabe)",
+        "JA":"ぼく",
+        "KA":"僕"
+    },{
+        "ES":"Yo (fuerte)",
+        "JA":"おれ",
+        "KA":"俺"
+    }],
+
+    "Profesiones": [{
+        "ES":"Profesor",
+        "JA":"せんせい",
+        "KA":"先生"
+    },{
+        "ES":"Estudiante",
+        "JA":"がくせい",
+        "KA":"学生"
+    },{
+        "ES":"Estudiante universitario",
+        "JA":"だいがくせい",
+        "KA":"大学生"
+    },{
+        "ES":"Estudiante de secundaria",
+        "JA":"こうこうせい",
+        "KA":"高校生"
+    },{
+        "ES":"Empleado",
+        "JA":"かいしゃいん",
+        "KA":"会社員"
+    },{
+        "ES":"Medico",
+        "JA":"いしゃ",
+        "KA":"医者"
+    }],
+
+    "Si y no": [{
+        "ES":"No",
+        "JA":"いいえ",
+        "KA":""
+    },{
+        "ES":"Si",
+        "JA":"はい",
+        "KA":""
+    }],
+
+    "Paises": [{
+        "ES":"Japon",
+        "JA":"にほん",
+        "KA":"日本"
+    },{
+        "ES":"China",
+        "JA":"ちゅうごく",
+        "KA":"中国"
+    },{
+        "ES":"USA",
+        "JA":"アメリカ",
+        "KA":""
+    },{
+        "ES":"Mexico",
+        "JA":"メキシコ",
+        "KA":""
+    },{
+        "ES":"Brasil",
+        "JA":"ブラジル",
+        "KA":""
+    },{
+        "ES":"Rusia",
+        "JA":"ロシア",
+        "KA":""
+    },{
+        "ES":"Inglaterra",
+        "JA":"イギリス",
+        "KA":""
+    },{
+        "ES":"Francia",
+        "JA":"フランス",
+        "KA":""
+    },{
+        "ES":"Alemania",
+        "JA":"ドイツ",
+        "KA":""
+    },{
+        "ES":"España",
+        "JA":"スペイン",
+        "KA":""
+    }], 
+
+    "Nacionalidades": [{
+        "ES":"Japones",
+        "JA":"にほんじん",
+        "KA":"日本人"
+    },{
+        "ES":"Chino",
+        "JA":"ちゅうごくじん",
+        "KA":"中国人"
+    },{
+        "ES":"Americano",
+        "JA":"アメリカじん",
+        "KA":"アメリカ人"
+    },{
+        "ES":"Mexicano",
+        "JA":"メキシコじん",
+        "KA":"メキシコ人"
+    },{
+        "ES":"Brasileño",
+        "JA":"ブラジルじん",
+        "KA":"ブラジル人"
+    },{
+        "ES":"Rusio",
+        "JA":"ロシアじん",
+        "KA":"ロシア人"
+    },{
+        "ES":"Ingles",
+        "JA":"イギリスじん",
+        "KA":"イギリス人"
+    },{
+        "ES":"Frances",
+        "JA":"フランスじん",
+        "KA":"フランス人"
+    },{
+        "ES":"Aleman",
+        "JA":"ドイツじん",
+        "KA":"ドイツ人"
+    },{
+        "ES":"Español",
+        "JA":"スペインじん",
+        "KA":"スペイン人"
+    }],
+
+    "Idiomas": [{
+        "ES":"Japones",
+        "JA":"にほんご",
+        "KA":"日本語"
+    },{
+        "ES":"Chino",
+        "JA":"ちゅうごくご",
+        "KA":"中国語"
+    },{
+        "ES":"Brasileño",
+        "JA":"ブラジルご",
+        "KA":"ブラジル語"
+    },{
+        "ES":"Rusio",
+        "JA":"ロシアご",
+        "KA":"ロシア語"
+    },{
+        "ES":"Ingles",
+        "JA":"えいご",
+        "KA":"英語"
+    },{
+        "ES":"Frances",
+        "JA":"フランスご",
+        "KA":"フランス語"
+    },{
+        "ES":"Aleman",
+        "JA":"ドイツご",
+        "KA":"ドイツ語"
+    },{
+        "ES":"Español",
+        "JA":"スペインご",
+        "KA":"スペイン語"
+    }], 
+
+    "Estrategias de conversacion": [{
+        "ES":"Hum",
+        "JA":"あのう",
+        "KA":""
+    },{
+        "ES":"De verdad?",
+        "JA":"そうですか",
+        "KA":""
+    },{
+        "ES":"Asi es",
+        "JA":"そうですね",
+        "KA":""
+    },{
+        "ES":"Dejame pensar",
+        "JA":"そうですね",
+        "KA":""
+    },{
+        "ES":"Oh",
+        "JA":"へえ",
+        "KA":""
+    }],
+
+    "Hacer, aceptar y rechazar ofertas": [{
+        "ES":"Un poco",
+        "JA":"ちょっと",
+        "KA":""
+    },{
+        "ES":"Rico",
+        "JA":"おいしい",
+        "KA":"美味しい"
+    },{
+        "ES":"Aceptar",
+        "JA":"いいですね",
+        "KA":""
+    },{
+        "ES":"Rechazar",
+        "JA":"ちょっと",
+        "KA":""
+    },{
+        "ES":"En ese caso",
+        "JA":"じゃあ",
+        "KA":""
+    },{
+        "ES":"Muy",
+        "JA":"とても",
+        "KA":""
+    },{
+        "ES":"",
+        "JA":"",
+        "KA":""
+    }]
+
+}

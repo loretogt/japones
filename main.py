@@ -3,38 +3,21 @@
 import json
 import random
 
-with open('data.json') as json_file:
+with open('datos.json') as json_file:
     data = json.load(json_file)
 
-def todosJE():
-    while 1:
-        tipo =random.choice(list(dic.keys()))
-        esp, jap = random.choice(list(dic.get(tipo).items()))
-        print(jap)
-        res=input()
-        if(res.upper()==esp.upper()):
-            print("CORRECTO")
-        else:
-            print("INCORRECTO, la resupuesta correcta es "+ esp)
-        print("----------")
-
-def todosEJ():
-    while 1:
-        tipo =random.choice(list(dic.keys()))
-        esp, jap = random.choice(list(dic.get(tipo).items()))
-        print(esp)
-        res=input()
-        if(res==jap):
-            print("CORRECTO")
-        else:
-            print("INCORRECTO, la resupuesta correcta es "+ jap)
-        print("----------")
 
 def concretoJE(op):
     while 1:
-        esp, jap = random.choice(list(dic.get(op).items()))
-        print(jap)
+        if (op=="Sobre todo"):
+            tipo =random.choice(list(dic.keys()))
+            esp, jap = random.choice(list(dic.get(tipo).items()))
+        else:
+            esp, jap = random.choice(list(dic.get(op).items()))
+        print(jap[0])
         res=input()
+        if (res.upper=='STOP'):
+            break
         if(res.upper()==esp.upper()):
             print("CORRECTO")
         else:
@@ -43,10 +26,16 @@ def concretoJE(op):
 
 def concretoEJ(op):
     while 1:
-        esp, jap = random.choice(list(dic.get(op).items()))
+        if (op=="Sobre todo"):
+            tipo =random.choice(list(dic.keys()))
+            esp, jap = random.choice(list(dic.get(tipo).items()))
+        else:
+            esp, jap = random.choice(list(dic.get(op).items()))
         print(esp)
         res=input()
-        if(res==jap):
+        if (res.upper=='STOP'):
+            break
+        if(res==jap or (res==jap[1] and jap[1]!="")):
             print("CORRECTO")
         else:
             print("INCORRECTO, la resupuesta correcta es "+ jap)
@@ -54,8 +43,33 @@ def concretoEJ(op):
 
 def vocabulario(op):
     for par in dic.get(op):
-        #print (par + "\t\t" +dic.get(op).get(par))
-        print ('{0:30s} {1:10s}'.format(par, dic.get(op).get(par)))
+        print ('{0:30s} {1:30s} {2:30s}'.format(par, dic.get(op).get(par)[0],dic.get(op).get(par)[1]))
+
+def dicEJ():
+    while 1:
+        print("Palabra en esp:")
+        pal=input()
+        if (pal=='stop'):
+            break
+        for temas in dic:
+            for palab in dic.get(temas):
+                if(pal.upper()==palab.upper()):
+                    print(dic.get(temas).get(palab)[0])
+                    break
+        print("----------")
+
+def dicJE():
+    while 1: 
+        print("Palabra en jap:")
+        pal=input()
+        if (pal=='stop'):
+            break
+        for temas in dic:
+            for palab in dic.get(temas):
+                if(pal==dic.get(temas).get(palab)[0] or pal==dic.get(temas).get(palab)[1]):
+                    print(palab)
+                    break
+        print("----------")
 
 if __name__ == "__main__":
     temas={ 1: "Sobre todo"}
@@ -68,7 +82,7 @@ if __name__ == "__main__":
 
     for line in data:
         for palabra in data[line]:
-            dic.get(line).update({palabra["ES"]:palabra["JA"]})
+            dic.get(line).update({palabra["ES"]:[palabra["JA"],palabra["KA"]]})
 
     while 1:
         print("---------")
@@ -76,25 +90,25 @@ if __name__ == "__main__":
         print("1. De japones a espanol")
         print("2. De espanol a japones")
         print("3. Mostrar vocabulario")
+        print("4. Diccionario Esp-Jap")
+        print("5. Diccionario Jap-Esp")
         le=input()
         print("---------")
-        print("Sobre que quires repasar?")
-        for key in temas:
-            print(str(key)+" "+temas.get(key))
-        op=input()
-        print("---------")
+        if(le!='4' and le!='5'):
+            print("Sobre que quires repasar?")
+            for key in temas:
+                print(str(key)+" "+temas.get(key))
+            op=input()
+            print("---------")
+
         if(le=="1"):
-            if(op=="1"):
-                todosJE()
-            else:
-                concretoJE(temas.get(int(op)))
+            concretoJE(temas.get(int(op)))
         elif(le=="2"):
-            if(op=="1"):
-                todosEJ()
-            else:
-                concretoEJ(temas.get(int(op)))
+            concretoEJ(temas.get(int(op)))
         elif(le=="3"):
             vocabulario(temas.get(int(op)))
+        elif(le=="4"):
+            dicEJ()
+        elif(le=="5"):
+            dicJE()
     
- 
-
