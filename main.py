@@ -35,10 +35,10 @@ def concretoEJ(op):
         res=input()
         if (res.upper=='STOP'):
             break
-        if(res==jap or (res==jap[1] and jap[1]!="")):
+        if(res==jap[0] or (res==jap[1] and jap[1]!="")):
             print("CORRECTO")
         else:
-            print("INCORRECTO, la resupuesta correcta es "+ jap)
+            print("INCORRECTO, la resupuesta correcta es "+ jap[0])
         print("----------") 
 
 def vocabulario(op):

@@ -172,7 +172,7 @@
         "JA":"ブラジルじん",
         "KA":"ブラジル人"
     },{
-        "ES":"Rusio",
+        "ES":"Ruso",
         "JA":"ロシアじん",
         "KA":"ロシア人"
     },{
@@ -247,6 +247,10 @@
         "ES":"Oh",
         "JA":"へえ",
         "KA":""
+    },{
+        "ES":"Por cierto",
+        "JA":"たころで",
+        "KA":""
     }],
 
     "Hacer, aceptar y rechazar ofertas": [{
@@ -273,10 +277,551 @@
         "ES":"Muy",
         "JA":"とても",
         "KA":""
-    },{
-        "ES":"",
-        "JA":"",
-        "KA":""
-    }]
+    }],
+
+    "Numeros":[{
+            "ES":"uno",
+            "JA":"いち",
+            "KA":"一"
+        },{
+            "ES":"dos",
+            "JA":"に",
+            "KA":"二"
+        },{
+            "ES":"tres",
+            "JA":"さん",
+            "KA":"三"
+        },{
+            "ES":"cuatro",
+            "JA":"し",
+            "KA":"四"
+        },{
+            "ES":"cuatro",
+            "JA":"よん",
+            "KA":"四"
+        },{
+            "ES":"cinco",
+            "JA":"ご",
+            "KA":"五"
+        },{
+            "ES":"seis",
+            "JA":"ろく",
+            "KA":"六"
+        },{
+            "ES":"siete",
+            "JA":"しち",
+            "KA":"七"
+        },{
+            "ES":"siete",
+            "JA":"なな",
+            "KA":"七"
+        },{
+            "ES":"ocho",
+            "JA":"はち",
+            "KA":"八"
+        },{
+            "ES":"nueve",
+            "JA":"きゅう",
+            "KA":""
+        },{
+            "ES":"nueve",
+            "JA":"く",
+            "KA":"九"
+        },{
+            "ES":"diez",
+            "JA":"じゅう",
+            "KA":"十"
+        },{
+            "ES":"once",
+            "JA":"じゅういち",
+            "KA":"十一"
+        },{
+            "ES":"doce",
+            "JA":"じゅうに",
+            "KA":"十二"
+        },{
+            "ES":"veinte",
+            "JA":"にじゅう",
+            "KA":"二十"
+        },{
+            "ES":"treinta",
+            "JA":"さんじゅう",
+            "KA":"三十"
+        },{
+            "ES":"cuarenta",
+            "JA":"よんじゅう",
+            "KA":"四十"
+        },{
+            "ES":"cincuenta",
+            "JA":"ごじゅう",
+            "KA":"五十"
+        },{
+            "ES":"sesenta",
+            "JA":"ろくじゅう",
+            "KA":"六十"
+        },{
+            "ES":"setenta",
+            "JA":"ななじゅう",
+            "KA":"七十"
+        },{
+            "ES":"ochenta",
+            "JA":"はちじゅう",
+            "KA":"八十"
+        },{
+            "ES":"noventa",
+            "JA":"きゅうじゅう",
+            "KA":"九十"
+        },{
+            "ES":"cien",
+            "JA":"ひゃく",
+            "KA":"百"
+        },{
+            "ES":"mil",
+            "JA":"せん",
+            "KA":"千"
+        }
+    ],
+
+    "La hora": [{
+            "ES":"La 1 en punto",
+            "JA":"いちじ",
+            "KA":"一時"
+        },{
+            "ES":"Las 2 en punto",
+            "JA":"にじ",
+            "KA":"二時"
+        },{
+            "ES":"Las 3 en punto",
+            "JA":"さんじ",
+            "KA":"三時"
+        },{
+            "ES":"Las 4 en punto",
+            "JA":"よじ",
+            "KA":"四時"
+        },{
+            "ES":"Las 5 en punto",
+            "JA":"ごじ",
+            "KA":"五時"
+        },{
+            "ES":"Las 6 en punto",
+            "JA":"ろくじ",
+            "KA":"六時"
+        },{
+            "ES":"Las 7 en punto",
+            "JA":"しちじ",
+            "KA":" 七時"
+        },{
+            "ES":"Las 8 en punto",
+            "JA":"はちじ",
+            "KA":"八時"
+        },{
+            "ES":"Las 9 en punto",
+            "JA":"くじ",
+            "KA":"九時"
+        },{
+            "ES":"Las 10 en punto",
+            "JA":"じゅうじ",
+            "KA":"十時"
+        },{
+            "ES":"Las 11 en punto",
+            "JA":"じゅういちじ",
+            "KA":"十一時"
+        },{
+            "ES":"Las 12 en punto",
+            "JA":"じゅうにじ",
+            "KA":"十二時"
+        },{
+            "ES":"Que hora es?",
+            "JA":"いまなんじですか",
+            "KA":"今何時ですか"
+        },{
+            "ES":"a.m.",
+            "JA":"ごぜん",
+            "KA":"午前"
+        },{
+            "ES":"p.m.",
+            "JA":"ごご",
+            "KA":"午後"
+        },{
+            "ES":"y media",
+            "JA":"はん",
+            "KA":"時半"
+        }],
+
+        "Edad":[{
+                "ES":"años de edad",
+                "JA":"さい",
+                "KA":""
+            },{
+                "ES":"1 año",
+                "JA":"いっさい",
+                "KA":"一歳"
+            },{
+                "ES":"2 años",
+                "JA":"にさい",
+                "KA":"二歳"
+            },{
+                "ES":"3 años",
+                "JA":"さんさい",
+                "KA":"三歳"
+            },{
+                "ES":"4 años",
+                "JA":"よんさい",
+                "KA":"四歳"
+            },{
+                "ES":"5 años",
+                "JA":"ごさい",
+                "KA":"五歳"
+            },{
+                "ES":"6 años",
+                "JA":"ろくさい",
+                "KA":"六歳"
+            },{
+                "ES":"7 años",
+                "JA":"ななさい",
+                "KA":"七歳"
+            },{
+                "ES":"8 años",
+                "JA":"はっさい",
+                "KA":"八歳"
+            },{
+                "ES":"9 años",
+                "JA":"きゅうさい",
+                "KA":"九歳"
+            },{
+                "ES":"10 años",
+                "JA":"じゅっさい ",
+                "KA":"十歳"
+            },{
+                "ES":"20 años",
+                "JA":"はたち",
+                "KA":"二十歳"
+            },{
+                "ES":"¿Mana cuántos años tienes?",
+                "JA":"まなさんはなんさいですか",
+                "KA":"まなさんは何歳ですか"
+            }],
+
+            "Objetos":[{
+                "ES":"Libro",
+                "JA":"ほん",
+                "KA":"本"
+            },{
+                "ES":"Revista",
+                "JA":"ざっし",
+                "KA":"雑誌"
+            },{
+                "ES":"Reloj",
+                "JA":"とけい",
+                "KA":"時計"
+            },{
+                "ES":"Bicicleta",
+                "JA":"じてんしゃ",
+                "KA":"自転車"
+            },{
+                "ES":"Coche",
+                "JA":"くるま",
+                "KA":"車"
+            },{
+                "ES":"Paraguas",
+                "JA":"かさ",
+                "KA":"傘"
+            },{
+                "ES":"Bolsa",
+                "JA":"かばん",
+                "KA":"鞄"
+            }],
+
+            "Me gusta/no me gusta + frases restaurante":[{
+                "ES":"Gustar",
+                "JA":"すき",
+                "KA":"好き"
+            },{
+                "ES":"Encantar",
+                "JA":"だいすき",
+                "KA":"大好き"
+            },{
+                "ES":"No gustar",
+                "JA":"すきじゃない ",
+                "KA":"好きじゃない"
+            },{
+                "ES":"Expresion antes de comer",
+                "JA":"いただきます",
+                "KA":""
+            },{
+                "ES":"Expresion informal despues de comer",
+                "JA":"ごちそうさま",
+                "KA":"ご馳走さま"
+            },{
+                "ES":"Uno",
+                "JA":"ひとつ",
+                "KA":"一つ"
+            },{
+                "ES":"La cuenta",
+                "JA":"かいけい",
+                "KA":"会計"
+            }],
+
+            "Colores":[{
+                "ES":"Blanco",
+                "JA":"しろい",
+                "KA":"白い"
+            },{
+                "ES":"Negro",
+                "JA":"くろい",
+                "KA":"黒い"
+            },{
+                "ES":"Rojo",
+                "JA":"あかい",
+                "KA":"赤い"
+            },{
+                "ES":"Rosa",
+                "JA":"ピンク",
+                "KA":""
+            },{
+                "ES":"Amarillo",
+                "JA":"きいろ",
+                "KA":"黄色"
+            },{
+                "ES":"Azul",
+                "JA":"あおい",
+                "KA":"青い"
+            },{
+                "ES":"Verde",
+                "JA":"みどり",
+                "KA":"緑"
+            },{
+                "ES":"Naranja",
+                "JA":"オレンジ",
+                "KA":""
+            },{
+                "ES":"Morado",
+                "JA":"むらさき",
+                "KA":"紫"
+            },{
+                "ES":"Marron",
+                "JA":"ちゃいろ",
+                "KA":"茶色"
+            }],
+
+            "Familia": [{
+                "ES":"Madre",
+                "JA":"おかあさん",
+                "KA":"お母さん"
+            },{
+                "ES":"Padre",
+                "JA":"おとうさ",
+                "KA":"お父さん"
+            },{
+                "ES":"Hija",
+                "JA":"むすめ",
+                "KA":"娘"
+            },{
+                "ES":"Hijo",
+                "JA":"むすこ",
+                "KA":"息子"
+            },{
+                "ES":"Hermana",
+                "JA":"しまい",
+                "KA":"姉妹"
+            },{
+                "ES":"Hermano",
+                "JA":"きょうだい",
+                "KA":"兄弟"
+            },{
+                "ES":"Abuelo",
+                "JA":"そふ",
+                "KA":"祖父"
+            },{
+                "ES":"Abuela",
+                "JA":"そぼ",
+                "KA":"祖母"
+            },{
+                "ES":"Esposa",
+                "JA":"つま",
+                "KA":"妻"
+            },{
+                "ES":"Marido",
+                "JA":"おっと",
+                "KA":"夫"
+            }],
+
+            "Adjetivos posesivos":[{
+                "ES":"Mi",
+                "JA":"わたしの",
+                "KA":""
+            },{
+                "ES":"Tu",
+                "JA":"あなたの",
+                "KA":""
+            },{
+                "ES":"Su (de el)",
+                "JA":"かれの ",
+                "KA":"彼の"
+            },{
+                "ES":"Su (de ella)",
+                "JA":"かのじょの",
+                "KA":"彼女の"
+            },{
+                "ES":"Nuestro/a",
+                "JA":"わたしたちの",
+                "KA":"私たちの"
+            },{
+                "ES":"Vuestro/a",
+                "JA":"あなたたちの",
+                "KA":""
+            },{
+                "ES":"Su (de ellos)",
+                "JA":"かれらの",
+                "KA":"彼らの"
+            },{
+                "ES":"Su (de ellas)",
+                "JA":"かのじょらの",
+                "KA":"彼女らの"
+            }],
+
+            "Objetos cotidianos":[{
+                "ES":"Plato",
+                "JA":"さら",
+                "KA":"皿"
+            },{
+                "ES":"Vaso",
+                "JA":"コップ",
+                "KA":""
+            },{
+                "ES":"Mesa",
+                "JA":"テーブル",
+                "KA":""
+            },{
+                "ES":"Libro",
+                "JA":"ほん",
+                "KA":"本"
+            },{
+                "ES":"Bolsa",
+                "JA":"かばん",
+                "KA":"鞄"
+            },{
+                "ES":"Llaves",
+                "JA":"かぎ",
+                "KA":"鍵"
+            },{
+                "ES":"Telefono",
+                "JA":"でんわ",
+                "KA":"電話"
+            },{
+                "ES":"Silla",
+                "JA":"いす",
+                "KA":"椅子"
+            },{
+                "ES":"Ordenador",
+                "JA":"コンピューター",
+                "KA":""
+            },{
+                "ES":"Cartera",
+                "JA":"さいふ",
+                "KA":"財布"
+            }],
+
+            "Adjetivos demostrativos":[{
+                "ES":"Este",
+                "JA":"この",
+                "KA":""
+            },{
+                "ES":"Ese/esa",
+                "JA":"その",
+                "KA":""
+            },{
+                "ES":"Estos/estas",
+                "JA":"これらの",
+                "KA":""
+            },{
+                "ES":"Esos/esas",
+                "JA":"それらの",
+                "KA":""
+            }],
+
+            "Talla":[{
+                "ES":"Grande",
+                "JA":"おおきい",
+                "KA":"大きい"
+            },{
+                "ES":"Pequeño/a",
+                "JA":"ちいさい",
+                "KA":"小さい"
+            },{
+                "ES":"Corto/a",
+                "JA":"みじかい",
+                "KA":"短い"
+            },{
+                "ES":"Largo/a",
+                "JA":"ながい",
+                "KA":"長い"
+            },{
+                "ES":"Pesado/a",
+                "JA":"おもい",
+                "KA":"重い"
+            },{
+                "ES":"Ancho/a",
+                "JA":"ひろい",
+                "KA":"広い"
+            },{
+                "ES":"Estrecho/a",
+                "JA":"せまい",
+                "KA":"狭い"
+            },{
+                "ES":"Profundo/a",
+                "JA":"ふかい",
+                "KA":"深い"
+            },{
+                "ES":"Poco profundo",
+                "JA":"あさい",
+                "KA":"浅い"
+            }],
+
+            "Describiendo":[{
+                "ES":"caluroso/a",
+                "JA":"あつい",
+                "KA":"暑い"
+            },{
+                "ES":"frio/a",
+                "JA":"さむい",
+                "KA":"寒い"
+            },{
+                "ES":"barato",
+                "JA":"やすい",
+                "KA":"安い"
+            },{
+                "ES":"caro",
+                "JA":"たかい",
+                "KA":"高い"
+            },{
+                "ES":"contento/a",
+                "JA":"うれしい",
+                "KA":"嬉しい"
+            },{
+                "ES":"triste",
+                "JA":"かなしい",
+                "KA":"悲しい"
+            },{
+                "ES":"bueno/a",
+                "JA":"よい",
+                "KA":"良い"
+            },{
+                "ES":"malo/a",
+                "JA":"わるい",
+                "KA":"悪い"
+            },{
+                "ES":"cerca",
+                "JA":"ちかくに",
+                "KA":"近くに"
+            },{
+                "ES":"lejos",
+                "JA":"とおい",
+                "KA":"遠い"
+            },{
+                "ES":"",
+                "JA":"",
+                "KA":""
+            } ]
 
 }
